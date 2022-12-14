@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+{% extends 'modulo1/main.html'%}
+{% load static %}
+
+
+
+{% block contenido %}
+<section class="page-section1 cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <div class="cta-inner text-center rounded">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper" style="color:white;" >Mundo </span>
+              <span class="section-heading-lower"  style="color:white;" >Perritos</span>
+            </h2>
+            <h1 class="mb-0"  >Todo sobre nuestros amigos peludosgit22222.</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="../../../static/modulo1/images/perrito.jpg" class="d-block mx-lg-auto img-fluid" style="height: 400px;" loading="lazy">
+      </div>
+      <div class="col-lg-6" id="heroe">
+        <h1 class="display-5 fw-bold lh-1 mb-3 text-center" style="color:black;">¿Por qué nos provocan tanto amor?</h1>
+        <p class="lead"  style="color:black; font-size: 20px;">“Sólo un perro” trae a mi vida la esencia misma de la amistad, la confianza y la alegría pura y desenfrenada. “Sólo un perro” saca a relucir la compasión y paciencia que hacen de mí una mejor persona. Por “sólo un perro” me levantaré temprano, haré largas caminatas y miraré con ansias el futuro..</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-center mb-3">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Historia de los perros</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Tienda</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../../../static/modulo1/images/perrito.jpg" height="500px" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../../../static/modulo1/images/perrito2.jpg" height="500px" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../../../static/modulo1/images/perrito3.jpg" height="500px" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+{% endblock contenido %}

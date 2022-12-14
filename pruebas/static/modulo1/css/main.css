@@ -1,0 +1,33 @@
+body{
+   background-image: url('../images/fondoperrito.jpg')
+}
+
+.container{
+    padding-top: 20px;
+    
+}
+
+
+
+h1{
+    color: yellow;
+}
+
+
+.page-section1 {
+    padding-bottom: 15px;
+    background-color:#58A4B0;
+}
+
+#heroe{
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+#botones{
+    align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
